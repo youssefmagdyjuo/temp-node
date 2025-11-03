@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background: white;
+    color: #237bcd;
+}
+
+form {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem auto;
+    max-width: 41rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #237bcd;
+}
+
+button {
+    background: #237bcd;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+
+
+
+table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+th {
+    background-color: #237bcd;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #d6e5f5;
+    color: #237bcd;
+}
+
+tr:nth-child(even) {
+    background-color: #f7fbff;
+}
+
+tr:hover {
+    background-color: #e3f1ff;
+    transition: background 0.2s ease;
+}
+
+#all_notes {
+    border: 1px solid #d6e5f5;
+    border-radius: 1rem;
+}
+
+.edit-btn, .delete-btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #237bcd;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #ff5c5c;
+    color: white;
+    margin-left: 0.5rem;
+}
